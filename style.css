@@ -1,0 +1,266 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* estilos em cascata  HU3 */
+.container {
+    padding-right: 2em;
+    padding-left: 2em;
+    margin: 0 auto;
+}
+
+.intro {
+    display: block;
+    background: url('images/bg-header-desktop.png')no-repeat;
+    background-size: 100%;
+}
+
+.primary img {
+    display: block;
+    margin: 0 auto;
+    padding: 80px 0 60px 0;
+}
+
+.primary h1 {
+    color: #4D5359;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.primary p {
+    color: #A6ABAB;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    line-height: 1.5em;
+}
+
+.primary {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* botoes */
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-wrap button:nth-child(1) {
+    margin-right: 20px;
+}
+
+.btn-wrap button:nth-child(2) {
+    background: hsl(233, 100%, 69%);
+    border-bottom: 2px #5763C6 solid;
+    box-shadow: 0px 10px 10px 0px rgba(35, 25, 179, 0.2)
+}
+
+.btn-wrap button:nth-child(2):hover {
+    background: #8896FF;
+    border-bottom: 2px #838BCC solid;
+}
+
+.btn-wrap button:nth-child(1):hover {
+    background: #5ACDBC;
+    border-bottom: 2px #57B8A7 solid;
+}
+
+.btn-wrap button {
+    font-style: none;
+    font-size: 0.875em;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    background: #26BBA5;
+    border: none;
+    border-bottom: 2px #189D89 solid;
+    cursor: pointer;
+    transition: 0.4s ease;
+    box-shadow: 0px 10px 10px 0px rgba(15, 161, 125, 0.2)
+}
+
+/* segunda parte */
+.secondary {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.secondary h1 {
+    text-align: center;
+    padding-top: 4em;
+    font-size: 36px;
+    color: #4D545C;
+    padding-bottom: 20px;
+}
+
+.secondary p {
+    text-align: center;
+    color: #A6ABAB;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+/* terceira parte  monitor e texto*/
+
+.third {
+    padding-top: 4em;
+    display: flex;
+    align-items: center;
+    padding-right: 2em;
+}
+
+.third img {
+    position: relative;
+    left: -100px;
+    max-width: 70vw;
+    min-width: 100px;
+    display: block;
+}
+
+.third h1 {
+    color: #4D5359;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.third ul li {
+    margin-bottom: 40px;
+    line-height: 1.5;
+    color: #A6ABAB;
+    font-size: 18px;
+}
+
+.third ul {
+    max-width: 450px;
+}
+
+/* parte 4 acessa de qualquer lugar */
+
+.four {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.four h1 {
+    color: #4D5359;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 4em;
+    font-size: 28px;
+}
+
+.four p {
+    text-align: center;
+    color: #A6ABAB;
+    line-height: 1.5em;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 4em;
+}
+
+.four img {
+    display: block;
+    max-width: 100%;
+}
+
+/* parte 5  */
+.five {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.five h1 {
+    color: #4D5359;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 4em;
+    font-size: 28px;
+}
+
+.five p {
+    text-align: center;
+    color: #A6ABAB;
+    line-height: 1.5em;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 4em;
+}
+
+/* icones e lista  */
+.wrap {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.wrap ul {
+    max-width: 33.3333%;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 7em;
+}
+
+.wrap ul:nth-child(1) {
+    margin-left: 0px;
+}
+
+.wrap ul svg {
+    margin-bottom: 20px;
+}
+
+.wrap ul li {
+    margin-bottom: 20px;
+    color: #A6ABAB;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.wrap ul h2 {
+    color: #4D5359;
+    font-weight: 600;
+}
+
+/* parte das logos */
+.wrap-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.wrap-2 div img {
+    display: block;
+    width: 100%;
+    padding-left: 40px;
+    flex: 1;
+}
+
+.wrap-2 div img:nth-child(1) {
+    padding-left: 0px;
+}
