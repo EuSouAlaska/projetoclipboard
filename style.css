@@ -263,4 +263,5 @@ body {
 
 .wrap-2 div img:nth-child(1) {
     padding-left: 0px;
+    margin: 0px;
 }
